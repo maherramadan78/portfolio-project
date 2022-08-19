@@ -51,8 +51,8 @@ transform: rotate(52.97deg);
 
 .menu{
     position:relative;
-    left: 80vh;
-    top:-48px;
+    left: 150px;
+    top:-40px;
     width:max-content;
 
 }
@@ -68,6 +68,7 @@ padding: 1em;
 font-family: Verdana, Geneva, sans-serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
+font-size:10px;
 }
 
 nav ul {
@@ -149,11 +150,11 @@ flex-grow: 0;
         border: 5px; border-color:#f5880c;
         width: 76px;
         height: 20px;
-        margin-left: 15vh;
+        margin-left: 8vh;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 20px;
         /* identical to box height, or 111% */
         display: flex;
@@ -175,21 +176,22 @@ flex-grow: 0;
 .content1 {
     /* Primary Text */
     
+display: inline-block;
+width: 290px;
+height: 30px;
 
-width: 35vh;
-height: 140px;
 
 /* Header / 2 */
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
+font-size: 20px;
 line-height: 52px;
 
 /* or 130% */
 display: flex;
 align-items: center;
-margin-left: 25vh;
+margin-left: 15px;
 /* Neutrals/N800 */
 color:  #f5880c;
 
@@ -202,8 +204,8 @@ flex-grow: 0;
 
 .content2{
     /* Primary Text */
-width: 80vh;
-height: 115px;
+width: 240px;
+height: 150px;
 
 /* Body / 2 */
 font-family: 'Times New Roman', Times, serif;
@@ -211,7 +213,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 20px;
-margin-left: 25vh;
+margin-left: 20px;
 /* or 150% */
 
 /* Neutrals/N600 */
@@ -226,9 +228,9 @@ flex-grow: 0;
 
 .content3 a{
 /* LET’S CONNECT */
-top:7vh;
-width: 117px;
-height:25px;
+
+width: 1vh;
+height:45px;
 
 /* Body / 2 - Bolder */
 font-family: 'Times New Roman', Times, serif;
@@ -236,7 +238,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 45px;
-margin-left: 25vh;
+margin-left: 25px;
 /* identical to box height, or 150% */
 
 /* Primary/B300 */
@@ -258,7 +260,7 @@ flex-grow: 0;
     justify-content: space-evenly;
     width: 50px;
     margin: auto;
-    margin-left: 48vh;
+    margin-left:30vh;
     position:relative;
     Width:19.99px;
 Height:19.96px;
@@ -266,6 +268,29 @@ right: 18vh;
 
 }
 
+i {
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+
+@media (max-width: 600px) {
+    .bars {
+        position: absolute;
+        display:block;
+        size:10px;
+        color:#f5880c;
+    left: auto;
+    right: 0;
+    top: 13px;
+    bottom: 95%;
+    margin-right: 1vh;
+    
+    /* Base / 300 - Tertiary */
+    border: 0px solid  #f5880c;
+       }
+  }
+  
 
 
   
